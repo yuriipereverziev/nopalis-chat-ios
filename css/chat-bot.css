@@ -2876,8 +2876,8 @@ button.action-popup__btn--send:hover {
     }
 }
 
-.chat-container {
-    /*display: block;*/
-    margin-bottom: env(safe-area-inset-bottom);
-}
+/*.chat-container {*/
+/*    !*display: block;*!*/
+/*    margin-bottom: env(safe-area-inset-bottom);*/
+/*}*/
 /* iOS */
