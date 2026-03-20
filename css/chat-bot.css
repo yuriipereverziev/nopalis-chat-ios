@@ -2876,6 +2876,10 @@ button.action-popup__btn--send:hover {
     }
 }
 
+html, body {
+    transform: none !important;
+}
+
 /*.chat-container {*/
 /*    !*display: block;*!*/
 /*    margin-bottom: env(safe-area-inset-bottom);*/
