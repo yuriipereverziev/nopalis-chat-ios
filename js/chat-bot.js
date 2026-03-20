@@ -1,3 +1,11 @@
+function setSafeArea() {
+    const inset = window.innerHeight - document.documentElement.clientHeight;
+    document.documentElement.style.setProperty('--safe-bottom', inset + 'px');
+}
+
+setSafeArea();
+window.addEventListener('resize', setSafeArea);
+
 /**
  * Керує progress bar чатбота.
  * Викликається ззовні через chatProgress.setProgress(value).
